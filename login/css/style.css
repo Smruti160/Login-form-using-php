@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container form h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.container form {
+    padding: 20px;
+    background-color: white;
+    /* text-align: center; */
+    width: 500px;
+}
+
+.container form label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container form h6 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container form .box {
+    width: 100%;
+    border-radius: 15px;
+    padding: 12px 14px;
+    font-size: 18px;
+    margin: 10px 0;
+    background-color: #DCDCDC;
+}
+
+
+.form-check-input {
+    cursor: pointer;
+}
+
+.container form p {
+    margin-top: 12px;
+    font-size: 18px;
+
+}
+
+.container form p a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
